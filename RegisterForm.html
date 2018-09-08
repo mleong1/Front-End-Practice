@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RegisterForm</title>
+</head>
+<body>
+
+<h1>Register</h1>
+
+<form>
+    <div>
+        <label for="firstName">First Name:</label>
+        <input name="fName" id="firstName" type="text" placeholder="John" required>
+
+        <label for="lastName">Last Name:</label>
+        <input name="lName" id="lastName" type="text" placeholder="Doe" required>
+    </div>
+
+    <div>
+        <label for="male">Male</label>
+        <input name="gender" id="male" type="radio" value="m">
+
+        <label for="female">Female</label>
+        <input name="gender" id="female" type="radio" value="f">
+
+        <label for="other">Other</label>
+        <input name="gender" id="other" type="radio" value="o">
+    </div>
+
+    <div>
+        <label for="emailAdd">Email:</label>
+        <input id="emailAdd" type="email" placeholder="your email" required>
+
+        <label for="password">Password:</label>
+        <input id="password" type="password" minlength="5" maxlength="10" placeholder="your password" required>
+    </div>
+
+    <div>
+        <label>Birthday:</label>
+        <select name="month">
+            <option>January</option>
+            <option>Febuary</option>
+            <option>March</option>
+            <option>April</option>
+            <option>May</option>
+            <option>June</option>
+            <option>July</option>
+        </select>
+
+        <select name="day">
+            <option>1</option>
+            <option>2</option>
+            <option>...</option>
+        </select>
+
+        <select name="year">
+            <option>1990</option>
+            <option>1991</option>
+            <option>1992</option>
+            <option>other</option>
+        </select>
+
+    </div>
+
+    <div>
+        <label for="termsAndCond">I agree to these terms and conditions</label>
+        <input id="termsAndCond" type="checkbox" required>
+    </div>
+
+    <button>Submit</button>
+</form>
+
+<a href="Page3.html">Or, head on out to the next section on CSS</a>
+</body>
+</html>
