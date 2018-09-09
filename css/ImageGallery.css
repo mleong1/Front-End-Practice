@@ -1,0 +1,20 @@
+img{
+    /*each img takes 30 percent of the body of the document*/
+    width: 30%;
+    float: left;
+    /*Six side margins with 10% of space, 10/6 = 1.66%*/
+    margin: 1.66%;
+}
+
+h1{
+    font-family: 'Noto Serif KR', sans-serif;
+    /*Add 1.66% of margin left to align with imgs*/
+    Margin-Left: 1.66%;
+    font-size: 50px;
+    font-weight: 900;
+    border-bottom: 1px solid grey;
+    /*Change the width of the entire h1 to make the border only take the necessary space*/
+    width: 30%;
+    /*Space between an element and its border is padding*/
+    padding-bottom: 1.66%;
+}
