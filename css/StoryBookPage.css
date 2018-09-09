@@ -1,0 +1,47 @@
+body{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #FBFBF2;
+
+}
+
+#firstParagraph:first-letter{
+    font-family: 'Spectral SC', serif;
+    font-size: 50px;
+    text-decoration: underline;
+    /*Get a lighter red*/
+    border: 5px solid #FE7475;
+    padding-top: 0.15em;
+    padding-bottom: 0.15em;
+    padding-left: 0.55em;
+    padding-right: 0.55em;
+}
+
+em{
+    color:  #FE7475;
+}
+
+p{
+    line-height: 3em;
+}
+
+#imgDiv{
+    text-align: center;
+}
+
+#footNote{
+    font-size: 10px;
+}
+img{
+    width: 400px;
+}
+
+h6{
+    float: right;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
