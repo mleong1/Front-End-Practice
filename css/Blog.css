@@ -1,0 +1,28 @@
+body{
+    border: 20px solid grey;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 20px;
+    /*At your max be at 700 pixels, but then go to 80% when below that max*/
+    max-width: 700px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.Date{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: cornflowerblue;
+}
+.Quote{
+    border-left: 5px solid grey;
+    padding-left: 5px;
+}
+
+h2{
+    font-size: 2.0rem;
+    font-weight: bolder;
+}
+
+.Post{
+    margin-bottom: 50px;
+}
