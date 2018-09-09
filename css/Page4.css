@@ -1,0 +1,65 @@
+/*Font Family*/
+p{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1{
+    font-family: Georgia;
+}
+
+/*Font Size*/
+h1{
+    font-size: 200px;
+}
+
+span{
+    font-size: 2.0em;/*em is the font size of parent. dynamic*/
+}
+
+/* Font Weight*/
+
+p{
+    font-weight: normal;
+}
+
+h1{
+    font-weight: bolder;
+}
+/*Line-Height */
+
+p{
+    line-height: 2;
+}
+
+/*Text-Align */
+
+h1{
+    text-align: center;
+}
+
+/*Text-Decoration*/
+
+h1{
+    text-decoration: underline;
+}
+
+span{
+    text-decoration: line-through;
+}
+
+
+/*BOX MODEL STUFF*/
+.boxModelP{
+    /*paragraphs to illustrate box model concepts
+      inspect elements to see specifics*/
+
+    /*Content - Width and Height*/
+    width: 50%;
+    height: 100px;
+    /*Border*/
+    border: 2px solid blue;
+    /*Padding*/
+    padding-left: 20px;
+    /*Margin*/
+    margin: 0 auto;
+}
