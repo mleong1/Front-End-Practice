@@ -4,3 +4,26 @@ h1{
     font-weight: bold;
     font-size: 50px;
 }
+
+
+#top td:nth-of-type(2){
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    border-collapse: collapse;
+}
+
+#middle td:nth-of-type(2){
+    border: 10px solid black;
+    border-collapse: collapse;
+}
+#middle td:nth-of-type(odd){
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+    border-collapse: collapse;
+}
+
+#end td:nth-of-type(2){
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    border-collapse: collapse;
+}
