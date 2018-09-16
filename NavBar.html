@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NavBar Bootstrap</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-light">
+    <!--Header, brand logo of the nav-->
+    <div class="navbar-header">
+        <a href="#" class="navbar-brand">Matt's Brand</a>
+    </div>
+
+    <!--Content of the nav bar, nav links-->
+    <div class="navbar nav">
+        <li><a href="#">About Me</a> </li>
+        <li><a href="#">Contact</a> </li>
+    </div>
+
+    <!--Content to the right of the nav bar, sign in log in-->
+    <ul class="navbar-nav ml-auto">
+        <li><a href="#">Sign Up</a> </li>
+        <li><a href="#">Log in</a> </li>
+    </ul>
+
+</nav>
+
+<!-- As a link -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!--Brand can also be an image instead, use an image tag instead of words here-->
+    <a class="navbar-brand" href="#">Navbar</a>
+
+    <!--This is where dropdown menu button goes so when page is resized, you can select dropdown and then the button
+    you want.-->
+
+
+    <!--After your brand, place other buttons-->
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+        </ul>
+    </div>
+
+    <!--Have a form after for searching or logging in-->
+    <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+</nav>
+
+
+<!--Grid work-->
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6" style="border: blue solid">
+            Col Large 6
+        </div>
+        <div class="col-lg-6" style="border: red solid">
+            Col Large 6
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-lg-2" style="border: blue solid">
+            Col Large 2
+        </div>
+
+        <div class="col-lg-8" style="border: red solid">
+            Col Large 8
+        </div>
+
+        <div class="col-lg-2" style="border: green solid">
+            Col Large 2
+        </div>
+    </div>
+
+    <!--XS grid will hold proportions on an xs size screen-->
+    <div class="row">
+        <div class="col-xs-2" style="border: blue solid">
+            Col XS 2
+        </div>
+
+        <div class="col-xs-8" style="border: red solid">
+            Col XS 8
+        </div>
+
+        <div class="col-xs-2" style="border: green solid">
+            Col XS 2
+        </div>
+    </div>
+
+    <!--Ratios specified when reaching MD, SM, XS breakpoints-->
+    <div class="row">
+        <div class="col-lg-2 col-md-4 col-sm-3 col-5" style="border: blue solid">
+            <!--Nested grid element-->
+            <div class="row">
+                <!--Col-6 meaning anything larger than XS takes half the parent div as well-->
+                <div class="col-6" style="border: gold solid">
+                    Element1
+                </div>
+                <div class="col-6" style="border: purple solid">
+                    Element2
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-8 col-md-4 col-sm-6 col-2" style="border: red solid">
+            Col Large 8
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-sm-3 col-5" style="border: green solid">
+            Col Large 2
+        </div>
+    </div>
+
+    <!--Notice that the col-lg-12 by itself isn't as long-->
+    <div class="col-lg-12" style="border: black solid">
+        <a href="photoGalProj.html">Check out this markup for a photo gallery!</a>
+    </div>
+</div>
+
+</body>
+</html>
