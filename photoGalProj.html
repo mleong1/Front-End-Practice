@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!--Font Awesome CDN-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/photoGalProj.css">
+</head>
+<body>
+
+<!--Padding the body works because the nav bar is stuck to the very top of the screen-->
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Mert's Image Emporium</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav mr-auto">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Features</a>
+            <a class="nav-item nav-link" href="#">Pricing</a>
+            <a class="nav-item nav-link disabled" href="#">Disabled</a>
+        </div>
+
+        <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link" href="#">Sign Up</a>
+            <a class="nav-item nav-link" href="#">Log In</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="jumbotron">
+        <!--Leaving out glyphicons because I'm in BS 4-->
+        <h1>An Image Gallery</h1>
+        <p>None of these photos are mine, I'm just testing making a photo gallery. All work can be found at unsplash.
+        Well actually it's one photo repeated because I didn't want to download everything :)</p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+
+        <!--First set of 3 pictures-->
+        <div class="col-lg-4 col-md-6 col-sm-6">
+            <img src="Images/workStation.jpg" class="img-thumbnail">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6">
+            <img src="Images/workStation.jpg" class="img-thumbnail">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6">
+            <img src="Images/workStation.jpg" class="img-thumbnail">
+        </div>
+
+
+        <!--Second set of 3 pictures-->
+        <div class="col-lg-4 col-md-6 col-sm-6" style="border: red solid">
+            <img src="Images/workStation.jpg" class="img-thumbnail">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6" style="border: blue solid">
+            <img src="Images/workStation.jpg" class="img-thumbnail">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6" style="border: green solid">
+            <img src="Images/workStation.jpg" class="img-thumbnail">
+        </div>
+
+
+
+        <!--Third set of 3 pictures-->
+        <div class="col-lg-4 col-md-6 col-sm-6" style="border: red solid">
+            <img src="Images/workStation.jpg" class="img-thumbnail">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6" style="border: blue solid">
+            <img src="Images/workStation.jpg" class="img-thumbnail">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6" style="border: green solid">
+            <img src="Images/workStation.jpg" class="img-thumbnail">
+        </div>
+
+
+    </div>
+</div>
+
+
+
+</body>
+</html>
